@@ -452,17 +452,7 @@ if = {
 }
 
 # DIPLOMACY / WAR 36
-if = {
-	limit = {
-		has_start_date < 1936.01.02
-	}
 
-	declare_war_on = {
-		target = ETH
-		type = annex_everything
-	}
-	give_guarantee = ALB
-}
 
 1939.1.1 = {
 
@@ -718,10 +708,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 73
-	communism = 2
-	neutrality = 5
+	democratic = 40
+	fascism = 0
+	communism = 5
+	neutrality = 55
 }
 
 recruit_character = ITA_benito_mussolini

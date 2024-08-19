@@ -419,8 +419,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 6
-	neutrality = 94
+	democratic = 15
+	neutrality = 85
 }
 
 set_convoys = 20
