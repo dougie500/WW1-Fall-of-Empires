@@ -13,7 +13,8 @@ state={
 	state_category = town
 
 	history={
-		owner = ENG
+		owner = SAF
+		add_core_of = SAF
 		
 		victory_points = {
 			4076 10 

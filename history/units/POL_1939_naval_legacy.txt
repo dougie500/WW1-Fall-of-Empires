@@ -7,19 +7,19 @@
 		task_force = {
 			name = "Polska Flota Niszczycieli"		# CO: Unrug
 			location = 362 # Danzig
-			ship = { name = "ORP Grom" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV } } }	
-			ship = { name = "ORP Blyskawica" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SOV } } }	
-			ship = { name = "ORP Burza" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }	
-			ship = { name = "ORP Wicher" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }		
+			ship = { name = "ORP Grom" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RUS } } }	
+			ship = { name = "ORP Blyskawica" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = RUS } } }	
+			ship = { name = "ORP Burza" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS } } }	
+			ship = { name = "ORP Wicher" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS } } }		
 		}	
 		task_force = {
 			name = "Dywizjon Okretów Podwodnych"	# CO: Mohuczy
 			location = 362 # Danzig
-			ship = { name = "ORP Orzel" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV } } }					
-			ship = { name = "ORP Sep" definition = submarine equipment = { submarine_2 = { amount = 1 owner = SOV } } }					
-			ship = { name = "ORP Ryś" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }					
-			ship = { name = "ORP Wilk" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }					
-			ship = { name = "ORP Żbik" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
+			ship = { name = "ORP Orzel" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RUS } } }					
+			ship = { name = "ORP Sep" definition = submarine equipment = { submarine_2 = { amount = 1 owner = RUS } } }					
+			ship = { name = "ORP Ryś" definition = submarine equipment = { submarine_1 = { amount = 1 owner = RUS } } }					
+			ship = { name = "ORP Wilk" definition = submarine equipment = { submarine_1 = { amount = 1 owner = RUS } } }					
+			ship = { name = "ORP Żbik" definition = submarine equipment = { submarine_1 = { amount = 1 owner = RUS } } }			
 		}
 	}
 }

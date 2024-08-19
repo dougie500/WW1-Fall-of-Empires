@@ -1,7 +1,7 @@
 state = {
 	id = 510
 	name = "STATE_510"
-	manpower = 1497169
+	manpower = 1
 
 	resources = {
 		oil = 2
@@ -15,10 +15,6 @@ state = {
 		owner = ARG
 		add_core_of = ARG
 
-		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-		}
 
 		victory_points = {
 			11007 2 

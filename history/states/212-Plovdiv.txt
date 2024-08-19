@@ -2,7 +2,7 @@
 state={
 	id=212
 	name="STATE_212"
-	manpower = 1814936
+	manpower = 1014936
 	
 	state_category = large_town
 
@@ -11,15 +11,17 @@ state={
 	}
 
 	history={
-		owner = BUL
-		victory_points = { #Plovdiv
-			6923 10
-		}
-		victory_points = { #Stara Zagora
-			6814 3
-		}
+		owner = TUR
+		
+		
 		victory_points = { #Haskovo
 			9862 1
+		}
+		victory_points = { #Burgas
+			9902 3
+		}
+		victory_points = { #Yambol
+		9888 1
 		}
 		buildings = {
 			infrastructure = 2
@@ -27,11 +29,12 @@ state={
 			industrial_complex =2
 			air_base = 2
 		}
+		add_core_of = TUR
 		add_core_of = BUL
 	}
 
 	provinces={
-		878 893 3937 6814 6857 6923 6952 6982 9818 9862 11813 
+		878 893 3937 6857 9818 9862 11813 9888 9902 
 	}
 
 	local_supplies=5.0 

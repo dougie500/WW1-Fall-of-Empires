@@ -3,7 +3,8 @@ state={
 	name="STATE_701"
 
 	history={
-		owner = ENG
+		owner = SAF
+		add_core_of = SAF
 		add_core_of = GAM
 		victory_points = {
 			4989 1 

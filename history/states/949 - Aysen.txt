@@ -1,7 +1,7 @@
 state = {
 	id = 949
 	name = "STATE_949" # Aysen
-	manpower = 34347
+	manpower = 1
 	
 	state_category = pastoral
 
@@ -14,9 +14,9 @@ state = {
 
 	history = {
 
-		owner = CHL
+		owner = ARG
 		add_core_of = CHL
-
+		add_core_of = ARG
 		buildings = {
 			infrastructure = 1
 			#dockyard = 1

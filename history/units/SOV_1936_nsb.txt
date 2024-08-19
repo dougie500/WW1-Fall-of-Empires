@@ -222,7 +222,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 150 }
+			light_tank_chassis_1 = { owner = RUS version_name = "T-26TU mod. 1933" amount = 150 }
 		}
 	}
 
@@ -257,7 +257,7 @@ units = {
 		location = 6174
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 200 } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = RUS version_name = "BT-5" amount = 200 } }
 	}
 	# Subordinate to AG
 	division= {			
@@ -266,7 +266,7 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge
 		start_experience_factor = 0.3
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 150 }
+			light_tank_chassis_1 = { owner = RUS version_name = "T-26TU mod. 1933" amount = 150 }
 		}
 	}
 	
@@ -313,7 +313,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 250 }
+			light_tank_chassis_1 = { owner = RUS version_name = "BT-5" amount = 250 }
 		}
 	}
 
@@ -358,7 +358,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 250 }
+			light_tank_chassis_1 = { owner = RUS version_name = "T-26TU mod. 1933" amount = 250 }
 		}
 
 	}
@@ -525,7 +525,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 150 }
+			light_tank_chassis_1 = { owner = RUS version_name = "BT-5" amount = 150 }
 		}
 	}
 
@@ -598,7 +598,7 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
 		start_experience_factor = 0.3
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 250 }
+			light_tank_chassis_1 = { owner = RUS version_name = "T-26TU mod. 1933" amount = 250 }
 		}
 	}
 
@@ -961,7 +961,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 150 }
+			light_tank_chassis_1 = { owner = RUS version_name = "BT-5" amount = 150 }
 		}
 	}
 
@@ -1006,7 +1006,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 250 }
+			light_tank_chassis_1 = { owner = RUS version_name = "T-26TU mod. 1933" amount = 250 }
 		}
 	}
 
@@ -1076,7 +1076,7 @@ units = {
 		division_template = "Mekhanizirovaniy Korpus"		# 2x Mekh Bge, 1x Mot Bge
 		start_experience_factor = 0.3
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "BT-5" amount = 250 }
+			light_tank_chassis_1 = { owner = RUS version_name = "BT-5" amount = 250 }
 		}
 	}
 
@@ -1675,7 +1675,7 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 		force_equipment_variants = {
-			light_tank_chassis_1 = { owner = SOV version_name = "T-26TU mod. 1933" amount = 250 }
+			light_tank_chassis_1 = { owner = RUS version_name = "T-26TU mod. 1933" amount = 250 }
 		}
 	}
 

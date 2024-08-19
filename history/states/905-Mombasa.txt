@@ -5,7 +5,8 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = ENG
+		owner = SAF
+		add_core_of = SAF
 		buildings = {
 			infrastructure = 2
 			5210 = {
