@@ -274,6 +274,43 @@ technologies = {
 			computing_tech
 		}
 	}
+	tankaircraft2 = {
+
+		army_bonus_air_superiority_factor = 0.01
+		category_all_armor = {
+			default_morale = 0.01
+		}
+
+		path = {
+			leads_to_tech = dingfelder_engine2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tanktrack2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = electronic_ww2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.0
+		start_year = 1922
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 6
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+		}
+	}
 
 
 	dingfelder_engine1 = {
@@ -320,6 +357,49 @@ technologies = {
 		}
 	}
 
+	dingfelder_engine2 = {
+	
+		air_superiority_efficiency = 0.03
+				
+		research_cost = 1.0
+		start_year = 1922
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+
+	tanktrack2 = {
+	
+		category_all_armor = {
+			breakthrough = 0.03
+		}
+				
+		research_cost = 1.0
+		start_year = 1922
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			electronics
+		}
+	}
 
 
 
@@ -353,6 +433,83 @@ technologies = {
 
 
 
+##################### right side
+chemical_research = {
+
+	start_year = 1890
+	research_cost = 1
+	research_speed_factor = 0.01
+	
+	path = {
+		leads_to_tech = chemical_research2
+		research_cost_coeff = 1
+	}		
+	
+	folder = {
+		name = electronics_folder
+		position = { x = 0 y = -2 }
+	}
+	
+	ai_will_do = {
+		factor = 2
+	}
+	
+	categories = {
+		electronics
+	}
+}
+
+chemical_research2 = {
+
+	category_army = {
+		breakthrough = 0.12
+		soft_attack = 0.06
+	}
+	
+	start_year = 1915
+	research_cost = 1
+	
+	folder = {
+		name = electronics_folder
+		position = { x = 0 y = 2 }
+	}
+
+	path = {
+		leads_to_tech = chemical_research3
+		research_cost_coeff = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	categories = {
+		electronics
+	}
+}
+
+chemical_research3 = {
+
+	category_line_artillery = {
+		soft_attack = 0.10
+	}
+
+	start_year = 1917
+	research_cost = 1
+	
+	folder = {
+		name = electronics_folder
+		position = { x = 0 y = 4 }
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+	
+	categories = {
+		electronics
+	}
+}
 
 
 	

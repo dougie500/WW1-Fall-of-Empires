@@ -1832,7 +1832,57 @@ spriteTypes = {
 		name = "GFX_electronic_mechanical_engineering_medium"
 		texturefile = "gfx/interface/technologies/electronic_mechanical_engineering.dds"
 	}	
-	
+	SpriteType = {
+		name = "GFX_supertech1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/supertech1.dds"
+	}
+	SpriteType = {
+		name = "GFX_supertech2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/supertech2.dds"
+	}
+	SpriteType = {
+		name = "GFX_hoi4tgw_decryption_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/hoi4tgw_decryption.dds"
+	}	
+	SpriteType = {
+		name = "GFX_hoi4tgw_encryption_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/hoi4tgw_encryption.dds"
+	}	
+	SpriteType = {
+		name = "GFX_radio2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/radio2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tanktrack1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/tanktrack1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tanktrack2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/tanktrack2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mechanical_computing2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/mechanical_computing2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_tankaircraft1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/tankaircraft1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tankaircraft2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/tankaircraft2.dds"
+	}
+	SpriteType = {
+		name = "GFX_dingfelder_engine1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/dingfelder_engine1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_dingfelder_engine2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/dingfelder_engine2.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_radio_medium"
 		texturefile = "gfx/interface/technologies/radio.dds"
