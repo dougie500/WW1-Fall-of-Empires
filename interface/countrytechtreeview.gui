@@ -305,7 +305,7 @@ guiTypes = {
 				format = "LEFT"
 			}
 		}
-
+				
 		containerWindowType = {
 			name = "support_folder"
 			position = { x=0 y=47 }
@@ -2910,6 +2910,29 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 			### TODO THESE SHOULD NOT USE RELATIVE POSITIONING, BUT RATHER USE FIXED
+			#MEDICINE HOI4TGW
+
+			gridboxtype = {
+				name = "ww1_medicine1_tree"
+
+				position = { x = 1015 y = 171 }
+				size = { width = 520 height = 800 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+				instantTextBoxType = {
+					name = "industry_ww1_medicine"
+					position = { x = 1200 y = 115  }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "INDUSTRY_TITLE_MEDICINE"
+					maxWidth = 150
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
 
 			containerWindowType = {
 				name = "size_filler"
@@ -3154,18 +3177,18 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 
-				instantTextBoxType = {
-					name = "industry_subtitle_synthetic_oil"
-					position = { x = 1308 y = 115  }
-					textureFile = ""
-					font = "hoi_22tech"
-					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_OIL"
-					maxWidth = 150
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
+				# instantTextBoxType = {
+				# 	name = "industry_ww1_oil"
+				# 	position = { x = 1520 y = 115  }
+				# 	textureFile = ""
+				# 	font = "hoi_22tech"
+				# 	borderSize = {x = 0 y = 4}
+				# 	text = "INDUSTRY_TITLE_OIL"
+				# 	maxWidth = 150
+				# 	maxHeight = 62
+				# 	format = center
+				# 	Orientation = "UPPER_LEFT"
+				# }
 
 				instantTextBoxType = {
 					name = "industry_subtitle_construction"
@@ -3197,13 +3220,19 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "fuel_silos_tree"
-				position = { x = 1250 y = 172 }
+				name = "ww1_oil1_tree"
+				position = { x = 1490 y = 242 }
 				size = { width =72 height = 650 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
+			gridboxtype = {
+				name = "ww1_fort1_tree"
+				position = { x = 1690 y = 103 }
+				size = { width =72 height = 650 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 			gridboxtype = {
 				name = "construction1_tree"
 				position = { x = 894 y = 312 }

@@ -1952,7 +1952,60 @@ spriteTypes = {
 		name = "GFX_nuclear_reactor_medium"
 		texturefile = "gfx/interface/technologies/nuclear_reactor.dds"
 	}	
-	
+	###MEDICINE
+	SpriteType = {
+		name = "GFX_ww1_medicine1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_medicine1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ww1_medicine2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_medicine2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ww1_medicine3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_medicine3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ww1_medicine4_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_medicine4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ww1_medicine5_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_medicine5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_ww1_oil1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_oil1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_oil2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_oil2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ww1_oil3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_oil3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_fort1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_fort2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification3b.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ww1_fort3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification6.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_fort4_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification5.dds"
+	}
 	### INDUSRTY TECH ###
 	
 	SpriteType = {
