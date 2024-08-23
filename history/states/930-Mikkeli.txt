@@ -20,6 +20,9 @@ state={
 		
 		buildings = {
 			infrastructure = 1 #TODO_Manu: Was 2
+			
+			industrial_complex = 1
+
 		}
 		
 	}

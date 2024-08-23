@@ -11,8 +11,8 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 3 #was: 6
-			arms_factory = 2
-			industrial_complex = 5
+			
+			industrial_complex = 4
 			air_base = 3
 			7798 = {
 				naval_base = 4
