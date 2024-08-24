@@ -4,7 +4,7 @@ technologies = {
 	electronic_mechanical_engineering = {
 
 		# small boost to research speed
-  		research_speed_factor = 0.01
+  		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = radio 
@@ -19,8 +19,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1
-		start_year = 1900
+		research_cost = 1.5
+		start_year = 1911
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 0 }
@@ -38,15 +38,15 @@ technologies = {
 	radio = {
 
 		# units with radios can more efficiently join combats when there is room
-		land_reinforce_rate = 0.02
-		coordination_bonus = 0.04
+		land_reinforce_rate = 0.015
+		coordination_bonus = 0.01
 		path = {
 			leads_to_tech = supertech1
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
-		start_year = 1907
+		research_cost = 1.5
+		start_year = 1912
 		
 		folder = {
 			name = electronics_folder
@@ -72,15 +72,16 @@ technologies = {
 	supertech1 = {
 
 		# units with radios can more efficiently join combats when there is room
-		land_reinforce_rate = 0.01
+		land_reinforce_rate = 0.015
+		coordination_bonus = 0.01
 		
 		path = {
 			leads_to_tech = radio2
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
-		start_year = 1910
+		research_cost = 1.5
+		start_year = 1914
 		
 		folder = {
 			name = electronics_folder
@@ -99,14 +100,15 @@ technologies = {
 	radio2 = {
 
 		# units with radios can more efficiently join combats when there is room
-		land_reinforce_rate = 0.02
+		land_reinforce_rate = 0.015
+		coordination_bonus = 0.01
 		
 		path = {
 			leads_to_tech = supertech2
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
+		research_cost = 1.5
 		start_year = 1916
 		
 		folder = {
@@ -127,15 +129,16 @@ technologies = {
 	supertech2 = {
 
 		# units with radios can more efficiently join combats when there is room
-		land_reinforce_rate = 0.01
+		land_reinforce_rate = 0.015
+		coordination_bonus = 0.01
 		
 		path = {
 			leads_to_tech = electronic_ww2
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
-		start_year = 1922
+		research_cost = 1.5
+		start_year = 1918
 		
 		folder = {
 			name = electronics_folder
@@ -154,7 +157,7 @@ technologies = {
 	mechanical_computing = {
 
 		# small boost to research speed
-		research_speed_factor = 0.01
+		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = tankaircraft1
@@ -171,8 +174,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.0
-		start_year = 1907
+		research_cost = 1.5
+		start_year = 1912
 		
 		folder = {
 			name = electronics_folder
@@ -196,7 +199,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1907
+		start_year = 1912
 		
 		folder = {
 			name = electronics_folder
@@ -219,7 +222,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1907
+		start_year = 1912
 		
 		folder = {
 			name = electronics_folder
@@ -239,9 +242,9 @@ technologies = {
 
 	tankaircraft1 = {
 
-		army_bonus_air_superiority_factor = 0.01
+		army_bonus_air_superiority_factor = 0.02
 		category_all_armor = {
-			default_morale = 0.01
+			default_morale = 0.02
 		}
 
 		path = {
@@ -257,8 +260,8 @@ technologies = {
 			research_cost_coeff = 1
 		}		
 
-		research_cost = 1.0
-		start_year = 1910
+		research_cost = 1.5
+		start_year = 1914
 		
 		folder = {
 			name = electronics_folder
@@ -276,9 +279,9 @@ technologies = {
 	}
 	tankaircraft2 = {
 
-		army_bonus_air_superiority_factor = 0.01
+		army_bonus_air_superiority_factor = 0.02
 		category_all_armor = {
-			default_morale = 0.01
+			default_morale = 0.02
 		}
 
 		path = {
@@ -295,7 +298,7 @@ technologies = {
 		}
 		
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1918
 		
 		folder = {
 			name = electronics_folder
@@ -318,7 +321,7 @@ technologies = {
 		air_superiority_efficiency = 0.03
 				
 		research_cost = 1.0
-		start_year = 1910
+		start_year = 1914
 		
 		folder = {
 			name = electronics_folder
@@ -341,7 +344,7 @@ technologies = {
 		}
 				
 		research_cost = 1.0
-		start_year = 1910
+		start_year = 1914
 		
 		folder = {
 			name = electronics_folder
@@ -362,7 +365,7 @@ technologies = {
 		air_superiority_efficiency = 0.03
 				
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1918
 		
 		folder = {
 			name = electronics_folder
@@ -385,7 +388,7 @@ technologies = {
 		}
 				
 		research_cost = 1.0
-		start_year = 1922
+		start_year = 1918
 		
 		folder = {
 			name = electronics_folder
@@ -406,14 +409,14 @@ technologies = {
 	mechanical_computing2 = {
 
 		# research_time_factor = -0.01
-		research_speed_factor = 0.01
+		research_speed_factor = 0.04
 		
 		path = {
 			leads_to_tech = tankaircraft2
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.0
+		research_cost = 1.5
 		start_year = 1916
 		
 		folder = {
@@ -438,7 +441,7 @@ chemical_research = {
 
 	start_year = 1890
 	research_cost = 1
-	research_speed_factor = 0.01
+	research_speed_factor = 0.02
 	
 	path = {
 		leads_to_tech = chemical_research2
@@ -447,7 +450,7 @@ chemical_research = {
 	
 	folder = {
 		name = electronics_folder
-		position = { x = 0 y = -2 }
+		position = { x = 0 y = 0 }
 	}
 	
 	ai_will_do = {

@@ -1827,11 +1827,24 @@ spriteTypes = {
 		name = "GFX_jet_engines_medium"
 		texturefile = "gfx/interface/technologies/jet_engines.dds"
 	}
-	
+	SpriteType = {
+		name = "GFX_chemical_research_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/chemical_research.dds"
+	}	
+	SpriteType = {
+		name = "GFX_chemical_research2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/chemical_research2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_chemical_research3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/chemical_research3.dds"
+	}	
+
 	SpriteType = {
 		name = "GFX_electronic_mechanical_engineering_medium"
 		texturefile = "gfx/interface/technologies/electronic_mechanical_engineering.dds"
 	}	
+	
 	SpriteType = {
 		name = "GFX_supertech1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/supertech1.dds"
