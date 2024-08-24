@@ -1,0 +1,25 @@
+state = {
+	id = 952
+	name = "STATE_952"
+	manpower = 1
+	
+	state_category = town
+
+	history = {
+		add_core_of = ARG
+		owner = ARG
+		add_core_of = CHL
+
+
+		victory_points = {
+			5228 2
+		}
+
+	}
+
+	provinces = {
+		5192 5228 11000 12914
+	}
+
+	local_supplies = 0.0 
+}
