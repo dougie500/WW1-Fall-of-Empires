@@ -10,5 +10,5 @@ tags={
 	"Utilities"
 }
 name="WW1 - The Fall of Empires"
+replace_path="common/characters"
 supported_version="1.14.7"
-path="C:/Users/JakeM/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/WW1 - The Fall of Empires"
